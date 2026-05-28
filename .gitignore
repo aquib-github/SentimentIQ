@@ -16,7 +16,7 @@ wheels/
 .env
 
 # Raw Data
-data/raw
+data/raw/
 
 # Jupyter
 .ipynb_checkpoints/
