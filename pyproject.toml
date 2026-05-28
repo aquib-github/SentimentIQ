@@ -1,0 +1,22 @@
+[project]
+name = "sentimentiq"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.8.5",
+    "fastapi>=0.136.3",
+    "include>=0.2.2",
+    "joblib>=1.5.3",
+    "jupyter>=1.1.1",
+    "notebook>=7.5.6",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "plotly>=6.7.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.8.0",
+    "streamlit>=1.57.0",
+    "transformers[torch]>=5.9.0",
+    "uvicorn>=0.48.0",
+]
