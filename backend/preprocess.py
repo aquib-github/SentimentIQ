@@ -33,5 +33,5 @@ def clean_text(text: str) -> str:
     return text
 
 if __name__ == '__main__':
-    test = "Check this out! https://example.com  It's AMAZING!!!"
+    test = "Check this out! https://example.com                It's AMAZING!!!"
     print(clean_text(test))
